@@ -14,5 +14,6 @@
 </div>
 @if(!$smslogs->isEmpty())
     <a class="btn btn-color btn-xs palette-concrete pull-right margin-right-10 margin-top-10"
-       href="{{ action('SmsController@logIndex') }}">View All</a>
+       href="{{ action('SmsController@logIndex') }}">View All
+    </a>
 @endif
